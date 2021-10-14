@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+    <section class="form-registro">
+        <h3>Registro</h3>
+        <div class="container">
+            <div class="item">
+                <input class="controls" type="text" name="nombre" maxlength="50" placeholder="Nombre"/>
+            </div>
+            <div class="item">
+                <input class="controls" type="text" name="apellido" maxlength="50" placeholder="Apellido"/>
+            </div> 
+        </div>
+        <input class="controls" type="text" name="Usuario" maxlength="50" placeholder="Usuario"/> <br>
+        <div class="warp">
+            <form action="" class="form">
+            <div>
+                <label class="item">Sexo</label>
+                <input type="radio" name="sexo" value="h" id="hombre">
+                <label for="hombre">Hombre</label>
+
+                <input type="radio" name="sexo" value="m" id="mujer">
+                <label for="mujer">Mujer</label>
+            </div>
+            
+            </form>
+        </div>
+        
+        <label>Correo <input class="controls" type="text" name="correo" maxlength="100" placeholder="Ej: correoelectronico@direccion.com"/></label><br>
+
+        <label>Contraseña <input class="controls" type="password" name="password" placeholder="Contraseña"/></label>
+
+        <div class="warp">
+            <form action="" class="form">
+                <div>
+                    <input type="checkbox" name="condiciones" id="checkbox" /> 
+                    <label for="checkbox">Acepto los Terminos y Condiciones.</label> 
+                </div>
+            </form>
+        </div><br>
+
+       <a href="user.html"><button class="buttons" type="submit" value="Enviar">Acceder</button></a>
+        
+        <p>Si ya tiene una cuenta, <a class="a" href="login.html">Inicie Sesion.</a></p>
+    </section>
+
+</body>
+</html>
